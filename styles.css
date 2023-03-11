@@ -5,12 +5,49 @@ body {
   margin-right: 300px;
 }
 
+footer {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+hr {
+  height: 4px;
+  background: rgb(197, 82, 82);
+  margin: 20px 0;
+  box-sizing: none;
+  border: 0px;
+}
+
+.footerText {
+  margin-top: 10px;
+  font-family: 'Archivo', 'helvetica neue', sans-serif;
+  font-weight: 500;
+  color: darkslategrey;
+  font-size: medium;
+  line-height: 25px;
+}
+
+.footerLink {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+  color: darkslategrey;
+  font-size:medium
+}
+
 h1 {
     font-family: 'Shrikhand', sans-serif;
     font-size: 300%;
     font-weight: 200;
     text-align: center;
     color: rgb(197, 82, 82);
+}
+
+h3 {
+  font-family: 'Shrikhand', sans-serif;
+  font-weight: 200;
+  color: rgb(197, 82, 82);
+  margin-bottom: 0px;
 }
 
 .topnav {
