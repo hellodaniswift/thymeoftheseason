@@ -43,7 +43,7 @@ h1 {
     color: rgb(197, 82, 82);
 }
 
-h2 {
+.rotdHeading {
   font-family: 'archivo';
   font-size: 200%;
   font-weight: bolder;
@@ -52,6 +52,7 @@ h2 {
   margin-top: 5px;
   margin-left: 20px;
   margin-bottom: 15px;
+  text-align: left;
 }
 
 .rotdTitle {
@@ -62,6 +63,15 @@ h2 {
   padding: 0px 10px; 
   margin-top: -15px;
   margin-left: 20px;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Shrikhand', sans-serif;
+  font-size: 200%;
+  font-weight: 200;
+  text-align: center;
+  color: rgb(197, 82, 82);
 }
 
 h3 {
@@ -111,6 +121,45 @@ h3 {
   background-color: rgb(197, 82, 82);
 }
 
+.precipeWrap {
+  position: sticky;
+  display: inline-flex;
+}
+
+.precipeWrap .previousRotd {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 100;        
+  text-align: left;
+  top: 65%;
+  background-color: rgba(255, 255, 255, 0.742);
+}
+
+.protdHeading {
+  font-family: 'Archivo';
+  font-size: 80%;
+  font-weight: 700;
+  color: darkslategrey;
+  padding: 0px 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.protdDescrip {
+  font-family: 'Archivo';
+  font-size: 60%;
+  font-weight: 700;
+  color:darkslategrey;
+  padding: 0px 10px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+
 .dailyRecipe {
   display: block;
   margin-left: auto;
@@ -121,7 +170,7 @@ h3 {
 .header {
   position:sticky;
   top: 0px;
-  padding-bottom: 35px;
+  padding-bottom: 20px;
   background-color: #ffcd70;
   z-index:1;
   width: 100%;
@@ -219,3 +268,4 @@ width: 280px;
 .recipeWrap:hover .recipeTitle {
   transform: translateY(0);
 }
+
