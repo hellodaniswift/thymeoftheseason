@@ -74,6 +74,14 @@ h2 {
   color: rgb(197, 82, 82);
 }
 
+.recipePage {
+  font-family: 'Shrikhand', sans-serif;
+  font-size: 200%;
+  font-weight: 200;
+  text-align: left;
+  color: rgb(197, 82, 82);
+}
+
 h3 {
   font-family: 'Shrikhand', sans-serif;
   font-weight: 200;
@@ -271,4 +279,22 @@ width: 280px;
 
 .recipeWrap:hover .recipeTitle {
   transform: translateY(0);
+}
+
+.recipePageText {
+  font-family: 'Archivo';
+  font-size: 150%;
+  font-weight: medium;
+  color:  darkslategrey;
+  margin-top: -15px;
+  text-align: left;
+}
+
+li {
+  font-family: 'Archivo';
+  font-size: 150%;
+  font-weight: medium;
+  color:  darkslategrey;
+  text-align: left;
+  line-height: 35px;
 }
