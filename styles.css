@@ -43,11 +43,44 @@ h1 {
     color: rgb(197, 82, 82);
 }
 
+h2 {
+  font-family: 'archivo';
+  font-size: 200%;
+  font-weight: bolder;
+  color: white;
+  padding: 0px 10px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.rotdTitle {
+  font-family: 'Archivo';
+  font-size: 150%;
+  font-weight: lighter;
+  color: white;
+  padding: 0px 10px; 
+  margin-top: -15px;
+  margin-left: 20px;
+}
+
 h3 {
   font-family: 'Shrikhand', sans-serif;
   font-weight: 200;
   color: rgb(197, 82, 82);
   margin-bottom: 0px;
+}
+
+.rotdDescrip {
+  font-family: 'archivo';
+  font-size: 100%;
+  font-weight: lighter;
+  color: white;
+  padding: 0px 10px; 
+  margin-top: -10px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  line-height: 20px;
 }
 
 .topnav {
@@ -60,6 +93,22 @@ h3 {
 .headerLinks {
   margin: 0 10px; 
   padding: 0 5px;
+}
+
+.todaysRecipe {
+  position: sticky;
+  display: inline-flex;
+}
+
+.todaysRecipe .recipeText {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 100;        
+  text-align: left;
+  top: 80%;
+  background-color: rgb(197, 82, 82);
 }
 
 .dailyRecipe {
