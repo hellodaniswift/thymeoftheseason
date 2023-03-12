@@ -185,20 +185,38 @@ h3 {
   overflow: hidden;
 }
 
-input {
-  width: 50%;
+input[type=text] {
+  width: 40%;
   padding: 8px 8px;
   margin: 8px 0;
   border: 3px solid rgba(197, 82, 82, 0.63);
-  border-radius: 17px;
+  border-radius: 5px;
   background-color: rgba(197, 82, 82, 0.125);
   font-family: 'Courier New', Courier, monospace;
-  text-decoration-color: black;
+  font-weight: bold;
+  text-decoration-color: darkslategray;
+  text-align: center;
 }
 
 input:focus {
   border: 3px solid rgb(197, 82, 82);
   background-color: rgba(197, 82, 82, 0);
+}
+
+input[type=submit] {
+  width: 18%;
+  padding: 8px 3px;
+  margin: 0;
+  border: 3px solid rgba(197, 82, 82, 0.63);
+  border-radius: 5px;
+  background-color: rgba(197, 82, 82, 0.125);
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration-color: darkslategray;
+}
+
+.subscribe {
+  padding-left: 250px;
+  margin-top: -12px;
 }
 
 a {
@@ -295,6 +313,7 @@ li {
   font-size: 150%;
   font-weight: medium;
   color:  darkslategrey;
+
   text-align: left;
   line-height: 35px;
 }
