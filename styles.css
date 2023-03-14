@@ -317,3 +317,15 @@ li {
   text-align: left;
   line-height: 35px;
 }
+
+.ingredientsColumn {
+  width: 33%;
+  padding: 0 10px 0 0;
+  float: left;
+}
+
+.methodColumn {
+  width: 66%;
+  padding: 0 10px 0 0;
+  float: right;
+}
