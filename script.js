@@ -1,4 +1,3 @@
-function newsletterSubscribe() {
-    document.getElementById("frm1").submit();
-    window.alert("You have successfully subscribed :-)");
-  }
+document.querySelector('form').addEventListener('submit', function(event) {
+  alert('you have successfully subscribed :-)!');
+});
