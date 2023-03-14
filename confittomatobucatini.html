@@ -33,17 +33,20 @@
     </div>
     <br><br><br><br>
 
-        <div class="ingredientsColumn">
-            <h2 class="recipePage">Ingredients</h2>
-                <p class="recipePageText">8 tomatoes on the vine</p><br>
-                <p class="recipePageText">2 heads of garlic</p><br>
-                <p class="recipePageText">200ml olive oil</p><br>
-                <p class="recipePageText">6 anchovies</p><br>
-                <p class="recipePageText">200g bucatini or linguine</p><br>
-                <p class="recipePageText">Salt and pepper to taste</p><br>
-                <p class="recipePageText">Pecorino (to serve)</p>
-        </div>
-        <div class="methodColumn">
+    <div class="ingredients">
+        <h2 class="recipePage">Ingredients</h2>
+        <label for="servings">I'm cooking for</label>
+        <input type="number" id="servings" name="servings" min="1" value="4">
+        <button onclick="adjustIngredients()">Update servings</button>
+        <p class="recipePageText">Tomatoes on the vine: <span id="tomatoes">8</span></p>
+        <p class="recipePageText">Heads of garlic: <span id="garlic">2</span></p>
+        <p class="recipePageText">Olive oil: <span id="oliveOil">200</span>ml</p>
+        <p class="recipePageText">Anchovies: <span id="anchovies">6</span></p>
+        <p class="recipePageText">Bucatini or linguine: <span id="pasta">200</span>g</p>
+        <p class="recipePageText">Salt and pepper to taste</p>
+        <p class="recipePageText">Pecorino (to serve)</p>
+      </div>
+
             <h2 class="recipePage">Method</h2>
                 <ol>
                     <li>Preheat your oven to 170c</li>
@@ -55,12 +58,11 @@
                     <li>When the roasted garlic is cool enough to handle, squeeze the sweet puree into the mashed anchovies and stir to combine. Mix this straight into the baking tray, mashing the tomatoes to make a richly flavoured sauce.</li>
                     <li>Meanwhile, get a pot of water boiling. Once it comes to boil, add enough salt to make it taste like the sea. Add your bucatini and stir regularly to prevent it from sticking.</li>
                     <li>Once al dente, use tongs to pull the bucatini directly into the baking tray. Add a ladleful of your pasta water and stir until everything comes together into a glossy, tomatoey sauce.</li>
-                    <li>Double check your seasoning, and then pile into bowls, with a good grating of pecorino and some freshly cracked black pepper.</li>
+                    <li>Double check everything is seasoned to your liking, and then pile into bowls, with a good grating of pecorino and some freshly cracked black pepper.</li>
                 </ol>
-        </div>
     </div>
 </div>
-
+<script src="script.js"></script>
 </body>
 <footer>
     <hr>
